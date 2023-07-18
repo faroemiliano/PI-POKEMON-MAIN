@@ -1,0 +1,126 @@
+.containerDetail {
+    background-image: url('../imagenes/universoDetail.jpg');
+    display: flex; /* mueve todo el contenedor dentro de un perimetro*/
+    flex-direction: row; /*este direcciona de manera horizontal*/
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+    
+}
+
+.textoDetail {
+    box-shadow:  00px 00px 0px 05px rgba(0, 0, 0, 0.713); 
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    min-height: 90vh;
+    border: 15px;
+    font-style: oblique;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to top, #862b2b, #e4f092);
+   border-radius: 40px;
+    
+}
+
+.divDato {
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 35px;
+}
+   
+.divDato h3{
+    margin: 0;
+}
+
+.divTypes{
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    
+}
+
+.containerTypes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 40%;
+    justify-content: flex-end;
+    overflow-x: hidden;
+    overflow-y: auto; 
+    height: 60px;
+}
+
+::-webkit-scrollbar {
+    width: 3px; /* Ancho de la barra de desplazamiento */
+  }
+
+::-webkit-scrollbar-thumb {
+background: #862b2b; /* Color del pulgar de la barra de desplazamiento */
+}
+  
+
+.divTypes p{
+    margin: 0;
+    margin-right: 2px;
+}
+    
+    
+
+.img {
+    width: 250px;
+    height: 250px;
+}
+
+.nombre {
+    margin-top: 0;
+    text-transform: capitalize;
+}
+
+.habilidades{
+    width: 150px;
+    height: 400px;
+}
+
+.divLink{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 10%;
+    height: 100vh;
+
+}
+
+.divDetail{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.link{
+    width: 60px;
+    background-color: rgb(242, 239, 239);
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    font-size: 14px;
+    font-weight: normal;
+    color: black;
+    font-style: normal;
+    height: 25px;
+    text-decoration:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    margin-top: 10px;
+}

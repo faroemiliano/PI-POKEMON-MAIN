@@ -1,0 +1,45 @@
+.container{
+    background-image: url('../imagenes/pokemon01.jpg');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.button {
+  position: fixed;
+  top: 55%;
+  left: 40%;
+  display: flex;
+  transform: translate(30%, 50%);
+  padding: 10px 20px; /* Ajuste de espaciado interno (padding) */
+  background-color: #e6fe08e1; /* Color de fondo */
+  color: rgb(3, 0, 0); /* Color del texto */
+  border: rgb(251, 255, 1); /* Eliminar el borde */
+  border-radius: 15px; /* Bordes redondeados */
+  font-size: 16px; /* Tamaño de fuente */
+  cursor: pointer;
+  box-shadow:  2px 6px rgba(0, 0, 0, 0.2);
+  transition: 0.8s;
+  border: 10px;
+  
+
+ 
+
+}
+.button:hover {
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.4);
+  opacity: 26;
+  background-color: #00d6c4;
+  outline: none; /* Eliminación del contorno al enfocar */
+  box-shadow: 0 0 0 2px #000000
+}
+
+.textoButton {
+ 
+  
+}
+
+
+

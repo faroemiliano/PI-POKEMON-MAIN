@@ -1,0 +1,30 @@
+.containter {
+    background-image: url('../imagenes/universoDetail.jpg');
+    min-height: 100vh;
+}
+
+.cartas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    overflow-x: hidden;
+    overflow-y: scroll; 
+    height: 65vh;
+    margin-bottom: 5px;
+}
+
+.containerActions{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.titulo{
+    color: white;
+}
+

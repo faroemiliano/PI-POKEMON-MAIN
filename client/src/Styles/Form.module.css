@@ -1,0 +1,156 @@
+.container {
+    background-image: url('../imagenes/universoDetail.jpg');
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    min-height: 100vh;
+
+
+
+}
+.formulario{
+    /* background-color: #547071; */
+    box-shadow:  00px 00px 0px 05px rgba(0, 0, 0, 0.713);
+    padding: 05px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 93vh;
+    border: 15px;
+    margin: 10px;
+    font-style: oblique;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to top, #862b2b, #e4f092);
+    
+}
+
+.containerInputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.titulo {
+    padding-top: 0px;
+    margin-bottom: 5px;
+
+    
+}
+
+
+.button {
+    cursor: pointer;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 28px;
+    width: 60px;
+    border-radius: 5px;
+}
+
+.multiSelect {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    width: 170px;
+    background-color: #FFFFFF;
+    color: black;
+    margin-top: 3px;
+}
+
+.multiSelect:hover .dropdownOptions {
+    display: block;
+    overflow-y: scroll;
+    height: 90px;
+}
+
+.multiSelect .dropdownSelected {
+    border: solid 1px #eee;
+    font-size: 14px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.multiSelect .dropdownSelected>img {
+    /* height: 18px; */
+}
+
+.multiSelect .dropdownOptions {
+    display: none;
+    margin: 0;
+    position: absolute;
+    box-sizing: border-box;
+    left: 0;
+    background-color: #FFFFFF;
+    width: 100%;
+    list-style: none;
+    padding-left: 0px;
+    border: solid 1px #EEEEEE;
+    padding: 5px 0px;
+}
+
+.multiSelect .dropdownOption {
+    display: flex;
+    align-items: center;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.multiSelect .dropdownOption:hover {
+    background-color: #eee;
+}
+
+.multiSelect .dropdownOption-checkbox {
+    margin-right: 6px;
+}
+
+.buttons{
+    margin-block: 10px;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link{
+    width: 60px;
+    background-color: rgb(242, 239, 239);
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    font-size: 14px;
+    font-weight: normal;
+    color: black;
+    font-style: normal;
+    height: 25px;
+    text-decoration:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-bottom: 5px;
+}
+
+.errors{
+    color: red;
+    font-size: x-small;
+    margin: 0;
+    margin-bottom: 3px;
+}

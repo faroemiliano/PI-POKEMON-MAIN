@@ -1,0 +1,66 @@
+.container{
+    background: linear-gradient(to top, #862b2b, #e4f092);
+    padding-top: 1cm; 
+    padding: 10px; 
+    border-radius: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2); 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.8s;
+    width: 200px;
+    height: 250px; 
+    border: 1px;
+    margin: 25px;
+    opacity: 0.85;
+    color: black;
+    text-decoration: none;
+
+
+}
+
+
+.container:hover{
+    box-shadow:  20px 10px 5px 0px rgba(0, 0, 0, 0.713);
+    opacity: 2;
+}
+
+
+ 
+
+   
+    
+    .textOtros{
+        font-family: 'Times New Roman', Times, serif;
+        font-size:17px; color: black;
+        padding-inline: 10px;
+        text-decoration: none;
+       text-transform: capitalize;
+      
+    }
+
+.imagen{
+    width: 110px;
+    height: 130px;
+}
+
+.types{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden; 
+}
+
+.tituloTipos{
+    font-style: oblique;
+    margin: 0;
+}
+
+.tipos {
+    margin-inline: 3px;
+}

@@ -1,0 +1,23 @@
+.input {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+
+}
+
+.input select, .input select option, .input label{
+    border-radius: 5px;
+    height: 25px;
+    font-size: .9em;
+}
+
+.input select, .input label{
+    font-size: .7em;
+}
+
+.input label {
+    color: #FFF;
+    margin-right: 10px;
+}
+
